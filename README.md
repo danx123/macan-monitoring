@@ -22,6 +22,7 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
     * **Draggable**: Click and drag anywhere to move the widget.
     * **Always on Top**: Toggle via the settings menu to keep stats visible over other apps.
     * **Run on Startup**: (Windows Only) Automatically launch the widget when your computer starts.
+* 🌏Public Ip Address
 
 ---
 
