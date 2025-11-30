@@ -27,7 +27,8 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="375" height="471" alt="Screenshot 2025-11-30 170851" src="https://github.com/user-attachments/assets/52e11c5c-68db-4046-90e2-fba2c7e33483" />
+<img width="1080" height="1764" alt="macan-monitoring" src="https://github.com/user-attachments/assets/dc802054-5ac1-4dd3-b757-807bdb1e91d2" />
+
 
 
 > *The widget running in the corner of a desktop with transparency enabled.*
