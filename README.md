@@ -27,13 +27,18 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="1080" height="1764" alt="macan-monitoring" src="https://github.com/user-attachments/assets/dc802054-5ac1-4dd3-b757-807bdb1e91d2" />
+<img width="354" height="462" alt="Screenshot 2025-12-04 131510" src="https://github.com/user-attachments/assets/39df8308-8697-44d9-94b6-d78760b4cffb" />
+
 
 
 
 > *The widget running in the corner of a desktop with transparency enabled.*
 
 ---
+
+## 📝 Changelog:
+- Added Network Status Visual Bar
+- Added Icon Connection Type
 
 ## 🛠️ Installation
 
