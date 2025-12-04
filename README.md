@@ -27,7 +27,8 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="354" height="462" alt="Screenshot 2025-12-04 131510" src="https://github.com/user-attachments/assets/39df8308-8697-44d9-94b6-d78760b4cffb" />
+<img width="950" height="767" alt="mcn-clock-dock" src="https://github.com/user-attachments/assets/cbf297ef-8453-4fb9-acce-eba77ce587d8" />
+
 
 
 
@@ -37,8 +38,8 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📝 Changelog:
-- Added Network Status Visual Bar
-- Added Icon Connection Type
+- Added Clock
+- Added Dock
 
 ## 🛠️ Installation
 
