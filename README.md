@@ -23,11 +23,14 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
     * **Always on Top**: Toggle via the settings menu to keep stats visible over other apps.
     * **Run on Startup**: (Windows Only) Automatically launch the widget when your computer starts.
 * 🌏Public Ip Address
+* Power Indicator
+* Internal TaskManager
 
 ---
 
 ## 📸 Screenshots
-<img width="1400" height="2183" alt="macan-monitoring-v350" src="https://github.com/user-attachments/assets/59a59151-3914-482c-b3d8-de3203aa77ba" />
+<img width="1400" height="2019" alt="macan-monitoring-v4" src="https://github.com/user-attachments/assets/b4cf84d8-7c95-40d1-8732-c9e2b6a23b75" />
+
 
 
 
@@ -41,9 +44,9 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📝 Changelog:
-- Added Shutdown & Restart System
-- Added Power Indicator Battery/AC Power
-- Added hover animation (Dock)
+- Added Macan TaskManager 
+- Added Menu Open Macan Conquer
+- Added Menu Open Recycle Bin
 
 ## 🛠️ Installation
 
