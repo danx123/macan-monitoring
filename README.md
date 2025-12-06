@@ -27,7 +27,8 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Screenshot 2025-12-06 082037" src="https://github.com/user-attachments/assets/8ee92faa-8a80-4ebd-8bfb-6a53db8febcb" />
+<img width="1400" height="2183" alt="macan-monitoring-v350" src="https://github.com/user-attachments/assets/59a59151-3914-482c-b3d8-de3203aa77ba" />
+
 
 
 
@@ -40,8 +41,9 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📝 Changelog:
-- Added Analog Clock
-- Added Sticky Note
+- Added Shutdown & Restart System
+- Added Power Indicator Battery/AC Power
+- Added hover animation (Dock)
 
 ## 🛠️ Installation
 
