@@ -29,16 +29,17 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Screenshot 2025-12-06 152947" src="https://github.com/user-attachments/assets/d982fbee-1861-4904-b141-f2f06cd46f9a" />
-<img width="902" height="634" alt="Screenshot 2025-12-06 225724" src="https://github.com/user-attachments/assets/41628cc2-0ffd-424e-a30c-73628b186b14" />
+<img width="1400" height="1582" alt="macan-monitoring-v450" src="https://github.com/user-attachments/assets/8a8051d7-aac5-4719-86b4-0ca460520f30" />
+
 
 > *The widget running in the corner of a desktop with transparency enabled.*
 
 ---
 
 ## 📝 Changelog:
-- Added Icon Process (TaskManager)
-- Added New Task (TaskManager)
+- Added Ext Network
+- Added Disk Info
+- Added URL bar with Smart Detection
 
 ## 🛠️ Installation
 
