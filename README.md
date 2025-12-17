@@ -29,7 +29,8 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="1400" height="1582" alt="macan-monitoring-v450" src="https://github.com/user-attachments/assets/8a8051d7-aac5-4719-86b4-0ca460520f30" />
+<img width="1365" height="767" alt="Screenshot 2025-12-17 210037" src="https://github.com/user-attachments/assets/316eb264-08e2-475f-8354-630978184a93" />
+
 
 
 > *The widget running in the corner of a desktop with transparency enabled.*
@@ -37,9 +38,8 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📝 Changelog:
-- Added Ext Network
-- Added Disk Info
-- Added URL bar with Smart Detection
+- Added Sidebar
+- Added Windows Explorer, Control Panel, Recycle Bin in Dock
 
 ## 🛠️ Installation
 
