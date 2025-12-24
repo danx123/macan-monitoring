@@ -29,7 +29,8 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Screenshot 2025-12-17 210037" src="https://github.com/user-attachments/assets/5bb56965-7efb-4026-9cf5-ebdcb42dc7b1" />
+<img width="1400" height="2231" alt="macan-monitoring-v5" src="https://github.com/user-attachments/assets/9a4e3fdc-eff5-43e3-9394-4475131d2c62" />
+
 
 
 
@@ -37,10 +38,6 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 > *The widget running in the corner of a desktop with transparency enabled.*
 
 ---
-
-## 📝 Changelog:
-- Added Sidebar
-- Added Windows Explorer, Control Panel, Recycle Bin in Dock
 
 ## 🛠️ Installation
 
