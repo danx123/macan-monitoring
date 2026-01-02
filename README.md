@@ -29,10 +29,13 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
-<img width="1400" height="2231" alt="macan-monitoring-v5" src="https://github.com/user-attachments/assets/9a4e3fdc-eff5-43e3-9394-4475131d2c62" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-02 135325" src="https://github.com/user-attachments/assets/2a93a11b-77b2-4af0-b4b4-baee5d5d36b0" />
 
 
-
+## Changelog:
+- Added about
+- Added check update
+- Optimized shutdown process
 
 
 > *The widget running in the corner of a desktop with transparency enabled.*
