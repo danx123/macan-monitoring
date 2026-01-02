@@ -1,0 +1,4 @@
+{
+  "version": "5.2.0",
+  "release_notes": "- Improved dark mode contrast.\n- Added About dialog.\n- Fixed memory leak in disk monitor."
+}
