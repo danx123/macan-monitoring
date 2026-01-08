@@ -33,9 +33,7 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 
 
 ## Changelog:
-- Added about
-- Added check update
-- Optimized shutdown process
+- fixed tooltip sidebar & dock
 
 
 > *The widget running in the corner of a desktop with transparency enabled.*
