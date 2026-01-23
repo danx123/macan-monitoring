@@ -32,27 +32,6 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 <img width="1365" height="767" alt="Screenshot 2026-01-20 001254" src="https://github.com/user-attachments/assets/80212053-fa8f-4861-954a-81f08647e7f8" />
 
 
-
-## Changelog v5.5.0
-New Features
-- Real-time Traffic Visualization:
-  - Implemented a high-performance Live Traffic Graph (cFosSpeed style) that provides a continuous visual pulse of Download and Upload activities.
-  - Added dynamic auto-scaling to the Y-axis to ensure high-fidelity monitoring across different bandwidth speeds.
-- Active Application Tracking:
-  - Integrated a new Network Apps Monitor accessible via the new dashboard icon.
-  - Added support for Process Icon Extraction: The system now automatically retrieves and displays the original application icons (e.g., Edge, Chrome, Spotify) for easier identification.
-- Process Management Control:
-  - Added End Task functionality within the network list, allowing users to terminate network-hungry or suspicious processes directly from the interface.
-
-Improvements
-Enhanced UI/UX:
-- Added a new Activity Dashboard button (📊) on the main header for quick access to detailed monitoring.
-- Improved progress bar responsiveness with optimized smoothing algorithms for data usage visualization.
-- Multi-threaded Data Fetching:
-  - Separated network scanning into a dedicated background worker thread (NetworkAppsWorker) to prevent UI freezing during heavy network activity.
-
-
-
 > *The widget running in the corner of a desktop with transparency enabled.*
 
 ---
