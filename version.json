@@ -1,8 +1,9 @@
 {
-  "version": "7.2.0",
-  "release_notes": "fixed drag and drop"
+  "version": "7.3.0",
+  "release_notes": "context menu open file location (Live App)"
 
 }
+
 
 
 
