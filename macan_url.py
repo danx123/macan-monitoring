@@ -1,4 +1,5 @@
 import sys
+from urllib.parse import quote_plus
 from PySide6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, 
                                QLineEdit, QPushButton, QFrame, QMessageBox, QSizeGrip)
 from PySide6.QtCore import Qt, QPoint, QSettings, QUrl, QSize
@@ -57,6 +58,13 @@ class MacanURL(QWidget):
         self.btn_go.setFixedWidth(20)
         self.btn_go.clicked.connect(self.process_input)
 
+        # Ask AI Button
+        self.btn_ai = QPushButton("✦ AI")
+        self.btn_ai.setObjectName("BtnAI")
+        self.btn_ai.setCursor(Qt.PointingHandCursor)
+        self.btn_ai.setToolTip("Ask Google AI")
+        self.btn_ai.clicked.connect(self.process_ai)
+
         # Close Button
         self.btn_close = QPushButton("✕")
         self.btn_close.setObjectName("BtnClose")
@@ -69,6 +77,7 @@ class MacanURL(QWidget):
         content_layout.addWidget(self.lbl_icon)
         content_layout.addWidget(self.input_field)
         content_layout.addWidget(self.btn_go)
+        content_layout.addWidget(self.btn_ai)
         content_layout.addWidget(self.btn_close)
 
         # SizeGrip
@@ -125,6 +134,22 @@ class MacanURL(QWidget):
                     color: {c['accent_orange']};
                 }}
             """
+            ai_style = f"""
+                QPushButton#BtnAI {{
+                    background-color: rgba(138, 43, 226, 0.15);
+                    color: #c084fc;
+                    border: 1px solid rgba(192, 132, 252, 0.4);
+                    border-radius: 5px;
+                    font-size: 11px;
+                    font-weight: bold;
+                    padding: 2px 7px;
+                }}
+                QPushButton#BtnAI:hover {{
+                    background-color: rgba(138, 43, 226, 0.35);
+                    color: #e9d5ff;
+                    border-color: rgba(192, 132, 252, 0.8);
+                }}
+            """
             close_style = f"""
                 QPushButton#BtnClose {{
                     background-color: transparent;
@@ -139,6 +164,7 @@ class MacanURL(QWidget):
             """
             self.lbl_icon.setStyleSheet(base_style)
             self.btn_go.setStyleSheet(base_style)
+            self.btn_ai.setStyleSheet(ai_style)
             self.btn_close.setStyleSheet(close_style)
         else:
             base_style = """
@@ -155,6 +181,22 @@ class MacanURL(QWidget):
             """
             self.lbl_icon.setStyleSheet(base_style)
             self.btn_go.setStyleSheet(base_style)
+            self.btn_ai.setStyleSheet("""
+                QPushButton#BtnAI {
+                    background-color: rgba(138, 43, 226, 0.15);
+                    color: #c084fc;
+                    border: 1px solid rgba(192, 132, 252, 0.4);
+                    border-radius: 5px;
+                    font-size: 11px;
+                    font-weight: bold;
+                    padding: 2px 7px;
+                }
+                QPushButton#BtnAI:hover {
+                    background-color: rgba(138, 43, 226, 0.35);
+                    color: #e9d5ff;
+                    border-color: rgba(192, 132, 252, 0.8);
+                }
+            """)
             self.btn_close.setStyleSheet("""
                 QPushButton#BtnClose {
                     background-color: transparent;
@@ -179,16 +221,28 @@ class MacanURL(QWidget):
         if not text:
             return
 
-        url = ""
         if "." in text and " " not in text:
             if not text.startswith("http://") and not text.startswith("https://"):
                 url = "https://" + text
             else:
                 url = text
         else:
-            query = text.replace(" ", "+")
-            url = f"https://www.google.com/search?q={query}"
+            url = f"https://www.google.com/search?q={quote_plus(text)}"
 
+        QDesktopServices.openUrl(QUrl(url))
+        self.input_field.clear()
+
+    def process_ai(self):
+        text = self.input_field.text().strip()
+        if not text:
+            return
+
+        encoded = quote_plus(text)
+        url = (
+            f"https://www.google.com/search"
+            f"?q={encoded}"
+            f"&sourceid=chrome&ie=UTF-8&udm=50&aep=48&cud=0&qsubts="
+        )
         QDesktopServices.openUrl(QUrl(url))
         self.input_field.clear()
 
@@ -219,10 +273,6 @@ class MacanURL(QWidget):
     def save_settings(self):
         self.settings.setValue("pos", self.pos())
         self.settings.setValue("size", self.size())
-
-    def closeEvent(self, event):
-        self.save_settings()
-        super().closeEvent(event)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
