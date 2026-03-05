@@ -52,7 +52,7 @@ except ImportError as e:
 APP_NAME = "Macan Monitoring"
 ORG_NAME = "MacanAngkasa"
 EXE_FILENAME = "macan-monitoring.exe"
-APP_VERSION = "7.5.0"
+APP_VERSION = "7.6.0"
 
 # ==========================================
 
