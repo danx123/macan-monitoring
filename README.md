@@ -29,6 +29,11 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 ---
 
 ## 📸 Screenshots
+<img width="1365" height="767" alt="Screenshot 2026-05-27 193459" src="https://github.com/user-attachments/assets/49d6f8b8-d2ca-4877-896f-19360fd35b2a" />
+
+<img width="876" height="621" alt="Screenshot 2026-05-27 193452" src="https://github.com/user-attachments/assets/5ebf8cc9-7438-42c4-b2c9-e6e676609307" />
+
+
 <img width="1365" height="767" alt="Screenshot 2026-01-20 001254" src="https://github.com/user-attachments/assets/80212053-fa8f-4861-954a-81f08647e7f8" />
 
 
