@@ -9,10 +9,6 @@
 Designed to be unobtrusive yet informative, it features a frameless design that blends perfectly into your desktop environment.
 
 ---
-<img width="1024" height="1536" alt="macan monitoring v8 3 1" src="https://github.com/user-attachments/assets/d392971a-96d9-4e8f-b661-b4a12218711d" />
-
-
----
 
 ## ✨ Key Features
 
