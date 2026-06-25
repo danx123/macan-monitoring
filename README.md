@@ -10,6 +10,11 @@ Designed to be unobtrusive yet informative, it features a frameless design that 
 
 ---
 
+<img width="1024" height="1536" alt="macan monitoring v8 3 3" src="https://github.com/user-attachments/assets/7e6e968f-252d-4c14-b545-3147388ccd89" />
+
+
+---
+
 ## ✨ Key Features
 
 * **📊 Real-Time Monitoring**: Instantly view CPU load, RAM usage, and Swap memory with visual progress bars.
