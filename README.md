@@ -7,12 +7,6 @@
 **Macan Monitoring** is a lightweight, elegant, and semi-transparent desktop widget built with **Python (PySide6)**. It provides real-time monitoring of your system's vital statistics—CPU, RAM, Swap, and Network speeds—packaged in a sleek, dark-themed UI.
 
 Designed to be unobtrusive yet informative, it features a frameless design that blends perfectly into your desktop environment.
-
----
-
-<img width="1024" height="1536" alt="macan monitoring v8 3 3" src="https://github.com/user-attachments/assets/7e6e968f-252d-4c14-b545-3147388ccd89" />
-
-
 ---
 
 ## ✨ Key Features
