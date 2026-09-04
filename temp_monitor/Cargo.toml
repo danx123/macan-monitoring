@@ -1,0 +1,12 @@
+[package]
+name = "temp_monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.32"
+pyo3 = { version = "0.22", features = ["extension-module"] }
+
+[lib]
+name = "temp_monitor"
+crate-type = ["cdylib"]
