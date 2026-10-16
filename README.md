@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)
 ![Rust](https://img.shields.io/badge/native%20engine-Rust-orange?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![Total Downloads](https://img.shields.io/github/downloads/danx123/macan-monitoring/total?style=flat-square&color=E8FF00&label=downloads)
+
 
 **Macan Monitoring** is a lightweight, elegant, and semi-transparent desktop widget built with **Python (PySide6)**. It provides real-time monitoring of your system's vital statistics—CPU, RAM, Swap, and Network speeds—packaged in a sleek, dark-themed UI.
 
