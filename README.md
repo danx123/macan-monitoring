@@ -11,6 +11,9 @@
 Designed to be unobtrusive yet informative, it features a frameless design that blends perfectly into your desktop environment.
 ---
 
+<img width="1365" height="733" alt="Screenshot 2026-11-26 223516" src="https://github.com/user-attachments/assets/e3bf1957-20a6-451a-8e06-c0dc74aca774" />
+
+
 ## ✨ Key Features
 
 * **📊 Real-Time Monitoring**: Instantly view CPU load, RAM usage, and Swap memory with visual progress bars.
